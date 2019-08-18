@@ -31,4 +31,5 @@ jobs:
         make lint
     - name: make test
       run: |
+        python ./configure
         make test
